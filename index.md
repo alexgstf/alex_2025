@@ -6,5 +6,5 @@ hide: true
 ---
 
 # My Projects
-
-Projects here
+---
+Here is where my projects will go.
