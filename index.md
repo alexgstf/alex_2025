@@ -21,10 +21,10 @@ hide: true
     <h3>Navigation Links</h3>
     <table>
         <tr>
-            <td> <a href="https://alexgstf.github.io/alex_2025/blogs/">Blogs</a> </td>  
-            <td> <a href="https://alexgstf.github.io/alex_2025/about/">About Me</a></td>  
-            <td> <a href="https://alexgstf.github.io/alex_2025/hacks/hack1"> Hack #1: Tools & Equipment Play</a></td>
-            <td> <a href="https://alexgstf.github.io/alex_2025/planning"> Planning Document</a></td>           
+            <td> <a href="/alex_2025/blogs/">Blogs</a> </td>  
+            <td> <a href="/alex_2025/about/">About Me</a></td>  
+            <td> <a href="/alex_2025/hacks/hack1/"> Hack #1: Tools & Equipment Play</a></td>
+            <td> <a href="/alex_2025/planning/"> Planning Document</a></td>           
         </tr>
     </table>
     <p>Come back soon to see new updates to this page.</p>
