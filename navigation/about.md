@@ -12,8 +12,8 @@ permalink: /about/
     }
 </style>
 
-### Introduction
 ---
+
 #### Some Facts About Me
 
 - I am the second youngest in a family of 5
