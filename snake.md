@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: blank
 title: Snake Game
 permalink: /snake
 ---
+<a href="/alex_2025/">Home</a>
 
 <style>
   html, body {
