@@ -8,9 +8,10 @@ hide: true
 <div>
     <table>
         <tr>
-            <td> <a href="/alex_2025/hacks/hack1"> Hack #1: Tools & Equipment Play</a></td>
-            <td> <a href="/alex_2025/planning"> Planning Document</a></td>         
-            <td> <a href="/alex_2025/snake"> Snake Game</a></td>    
+            <td> <a href="/alex_2025/hacks/hack1"> Hack #1 </a> </td>
+            <td> <a href="/alex_2025/planning"> Planning </a> </td>         
+            <td> <a href="/alex_2025/snake"> Snake </a> </td>   
+            <td> <a href="/alex_2025/minesweeper"> Minesweeper </a> </td>
         </tr>
     </table>
 </div>
