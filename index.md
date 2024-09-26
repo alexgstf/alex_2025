@@ -5,16 +5,7 @@ description: Home Page
 hide: true
 ---
 
-<div>
-    <table>
-        <tr>
-            <td> <a href="/alex_2025/hacks/hack1"> Hack #1 </a> </td>
-            <td> <a href="/alex_2025/planning"> Planning </a> </td>         
-            <td> <a href="/alex_2025/snake"> Snake </a> </td>   
-            <td> <a href="/alex_2025/minesweeper"> Minesweeper </a> </td>
-        </tr>
-    </table>
-</div>
+{% include nav/home.html %}
 
 # Home
 ---

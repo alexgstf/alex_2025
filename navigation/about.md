@@ -8,8 +8,8 @@ comments: true
 <style>
     #codeimg {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 30px;
+        float: right;
     }
 </style>
 
@@ -17,24 +17,28 @@ comments: true
 
 #### Some Facts About Me
 
+<br>
+
 - I am the second youngest in a family of 5
 - I play the trombone in marching, concert, and jazz band at DNHS
 - My best subject in school is math
 
 <br>
 
-My name is Alex Gustaf and I'm currently a senior at Del Norte High School! I joined CSP because I am interested in working with computers and creating cool projects from my own code. Also, I've already learned a little about languages like Python and HTML, so I knew that I wanted to continue developing my skills.
-
 <img id="codeimg" src="https://imageio.forbes.com/blogs-images/forbestechcouncil/files/2019/01/canva-photo-editor-8-7.png" width="300" height="300">
+
+My name is Alex Gustaf and I'm currently a senior at Del Norte High School! I joined CSP because I am interested in working with computers and creating cool projects from my own code. Also, I've already learned a little about languages like Python and HTML, so I knew that I wanted to continue developing my skills.
 
 #### Background
 
 I have lived here in San Diego, CA my whole life with my family. I went to Stone Ranch and Oak Valley before attending Del Norte. My dad grew up in Michigan but moved here, where he met my mom who had immigrated from China. 
 
+<br>
+
 <style>
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
         gap: 10px;
     }
     .grid-item {

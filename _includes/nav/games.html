@@ -1,0 +1,60 @@
+<nav class="navbar">
+    <ul class="nav-links">
+        <li class="nav-item">
+            <a href="{{site.baseurl}}/games/snake">Snake</a>
+        </li>
+        <li class="nav-item">
+            <a href="{{site.baseurl}}/games/cc">Cookie Clicker</a>
+        </li>
+        <li class="nav-item">
+            <a href="{{site.baseurl}}/games/ng">Number Guessing</a>
+        </li>
+    </ul>
+</nav>
+
+<br>
+
+<style>
+    .navbar {
+        background-color: #333;
+    }
+    .nav-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly; /* Evenly space the nav items */
+        align-items: center; /* Center items vertically */
+    }
+    .nav-item {
+        position: relative;
+    }
+    .nav-item a {
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px; /* Adjusted padding for better vertical spacing */
+        display: block;
+    }
+    .dropdown {
+        display: none;
+        position: absolute;
+        background-color: #444;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        min-width: 160px;
+        z-index: 1;
+    }
+    .nav-item:hover .dropdown {
+        display: block;
+    }
+    .dropdown li a {
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown li a:hover {
+        background-color: #555;
+    }
+</style>
