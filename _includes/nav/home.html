@@ -1,72 +1,44 @@
-<nav class="navbar">
-    <ul class="nav-links">
-        <li class="nav-item">
-            <a href="{{site.baseurl}}/hacks">Hacks</a>
-            <ul class="dropdown">
-                <li><a href="{{site.baseurl}}/hacks/hack1"> Tools & Equipment</a></li>
-                <li><a href="{{site.baseurl}}/hacks/hack2"> Frontend </a></li>
+<nav class="navbar" style="background-color: #333;">
+    <ul class="nav-links" style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: space-evenly; align-items: center;">
+        <li class="nav-item" style="position: relative;">
+            <a href="{{site.baseurl}}/hacks" style="color: white; text-decoration: none; padding: 15px 20px; display: block;">Hacks</a>
+            <ul class="dropdown" style="display: none; position: absolute; background-color: #444; list-style: none; padding: 0; margin: 0; min-width: 160px; z-index: 1;">
+                <li><a href="{{site.baseurl}}/hacks/hack1" style="padding: 10px; color: white; text-decoration: none; display: block;">Tools & Equipment</a></li>
+                <li><a href="{{site.baseurl}}/hacks/hack2" style="padding: 10px; color: white; text-decoration: none; display: block;">Frontend</a></li>
             </ul>
         </li>
-        <li class="nav-item">
-            <a href="{{site.baseurl}}/games">Games</a>
-            <ul class="dropdown">
-                <li><a href="{{site.baseurl}}/games/snake">Snake</a></li>
-                <li><a href="{{site.baseurl}}/games/cc">Cookie Clicker</a></li>
-                <li><a href="{{site.baseurl}}/games/ng">Number Guessing</a></li>
+        <li class="nav-item" style="position: relative;">
+            <a href="{{site.baseurl}}/games" style="color: white; text-decoration: none; padding: 15px 20px; display: block;">Games</a>
+            <ul class="dropdown" style="display: none; position: absolute; background-color: #444; list-style: none; padding: 0; margin: 0; min-width: 160px; z-index: 1;">
+                <li><a href="{{site.baseurl}}/games/snake" style="padding: 10px; color: white; text-decoration: none; display: block;">Snake</a></li>
+                <li><a href="{{site.baseurl}}/games/cc" style="padding: 10px; color: white; text-decoration: none; display: block;">Cookie Clicker</a></li>
+                <li><a href="{{site.baseurl}}/games/ng" style="padding: 10px; color: white; text-decoration: none; display: block;">Number Guessing</a></li>
             </ul>
         </li>
-        <li class="nav-item">
-            <a href="{{site.baseurl}}/planning">Planning</a>
+        <li class="nav-item" style="position: relative;">
+            <a href="{{site.baseurl}}/planning" style="color: white; text-decoration: none; padding: 15px 20px; display: block;">Planning</a>
         </li>
-        <li class="nav-item">
-            <a href="{{site.baseurl}}/about">About</a>
+        <li class="nav-item" style="position: relative;">
+            <a href="{{site.baseurl}}/about" style="color: white; text-decoration: none; padding: 15px 20px; display: block;">About</a>
         </li>
     </ul>
 </nav>
 
 <br>
 
-<style>
-    .navbar {
-        background-color: #333;
-    }
-    .nav-links {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: space-evenly; /* Evenly space the nav items */
-        align-items: center; /* Center items vertically */
-    }
-    .nav-item {
-        position: relative;
-    }
-    .nav-item a {
-        color: white;
-        text-decoration: none;
-        padding: 15px 20px; /* Adjusted padding for better vertical spacing */
-        display: block;
-    }
-    .dropdown {
-        display: none;
-        position: absolute;
-        background-color: #444;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        min-width: 160px;
-        z-index: 1;
-    }
-    .nav-item:hover .dropdown {
-        display: block;
-    }
-    .dropdown li a {
-        padding: 10px;
-        color: white;
-        text-decoration: none;
-        display: block;
-    }
-    .dropdown li a:hover {
-        background-color: #555;
-    }
-</style>
+<script>
+    document.querySelectorAll('.nav-item').forEach(item => {
+        item.addEventListener('mouseenter', () => {
+            const dropdown = item.querySelector('.dropdown');
+            if (dropdown) {
+                dropdown.style.display = 'block';
+            }
+        });
+        item.addEventListener('mouseleave', () => {
+            const dropdown = item.querySelector('.dropdown');
+            if (dropdown) {
+                dropdown.style.display = 'none';
+            }
+        });
+    });
+</script>
