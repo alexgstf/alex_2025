@@ -4,7 +4,7 @@ title: "Number Guessing Game"
 permalink: /games/ng
 ---
 
-{% include nav/games.html %}
+{% include nav/mainnav.html %}
 
 <div id="game">
   <h2>Guess the Number!</h2>

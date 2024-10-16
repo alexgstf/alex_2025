@@ -4,7 +4,7 @@ title: Snake Game
 permalink: /games/snake
 ---
 
-{% include nav/games.html %}
+{% include nav/mainnav.html %}
 
 <div id="snake-game" style="width: 400px; height: 400px; border: 2px solid #333; position: relative; margin: auto;">
     <canvas id="gameCanvas" width="400" height="400" style="background-color: #f0f0f0;"></canvas>

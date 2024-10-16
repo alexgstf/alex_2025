@@ -4,7 +4,7 @@ title: Cookie Clicker
 permalink: /games/cc
 ---
 
-{% include nav/games.html %}
+{% include nav/mainnav.html %}
 
 <div id="cookie-clicker" style="text-align: center; margin: auto; width: 400px;">
     <h1>Cookie Clicker</h1>

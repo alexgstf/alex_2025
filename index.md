@@ -5,7 +5,7 @@ description: Home Page
 hide: true
 ---
 
-{% include nav/home.html %}
+{% include nav/mainnav.html %}
 
 # Home
 ---
