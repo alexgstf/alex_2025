@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Student Home 
+title: Blog 
 description: Home Page
 hide: true
 ---
